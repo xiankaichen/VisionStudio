@@ -26,7 +26,7 @@ import os
 # ======================= 应用配置 ==========================
 
 # 应用名称
-DJANGO_NAME = os.getenv('DJANGO_NAME', 'Django+EleVue旗舰版')
+DJANGO_NAME = os.getenv('DJANGO_NAME', 'VisionStudio')
 # 应用版本
 DJANGO_VERSION = os.getenv('DJANGO_VERSION', 'v2.5.0')
 # 开启DEBUG调试
