@@ -1,0 +1,47 @@
+C:\Users\Administrator\.nuget\packages\caliburn.micro.core\4.0.212\lib\netstandard2.0\Caliburn.Micro.Core.dll
+C:\Users\Administrator\.nuget\packages\caliburn.micro\4.0.212\lib\net462\Caliburn.Micro.Platform.Core.dll
+C:\Users\Administrator\.nuget\packages\caliburn.micro\4.0.212\lib\net462\Caliburn.Micro.Platform.dll
+C:\Users\Administrator\.nuget\packages\mathnet.numerics\5.0.0\lib\net48\MathNet.Numerics.dll
+C:\Users\Administrator\.nuget\packages\mathnet.spatial\0.6.0\lib\net461\MathNet.Spatial.dll
+C:\Users\Administrator\.nuget\packages\microsoft.bcl.asyncinterfaces\8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.19\lib\net45\Microsoft.Xaml.Behaviors.dll
+C:\Users\Administrator\.nuget\packages\mradvice\2.19.1\lib\netstandard2.0\MrAdvice.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+C:\Users\Administrator\.nuget\packages\opencvsharp4\4.10.0.20241108\lib\net48\OpenCvSharp.dll
+C:\Users\Administrator\.nuget\packages\opencvsharp4.wpfextensions\4.10.0.20241108\lib\net48\OpenCvSharp.WpfExtensions.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationFramework.dll
+C:\Users\Administrator\.nuget\packages\sd.infrastructure\3.8.2\lib\net462\SD.Infrastructure.dll
+C:\Users\Administrator\.nuget\packages\sd.infrastructure.wpf.caliburn\1.3.1\lib\net462\SD.Infrastructure.WPF.Caliburn.dll
+C:\Users\Administrator\.nuget\packages\sd.infrastructure.wpf\1.7.15\lib\net462\SD.Infrastructure.WPF.dll
+C:\Users\Administrator\.nuget\packages\sd.opencv.primitives\1.1.0\lib\net462\SD.OpenCV.Primitives.dll
+C:\Users\Administrator\.nuget\packages\sd.toolkits.json\2.1.0\lib\net462\SD.Toolkits.Json.dll
+C:\Users\Administrator\.nuget\packages\sd.toolkits.mathematics\1.0.0\lib\net462\SD.Toolkits.Mathematics.dll
+C:\Users\Administrator\.nuget\packages\system.buffers\4.5.1\ref\net45\System.Buffers.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Configuration.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+C:\Users\Administrator\.nuget\packages\system.drawing.common\8.0.0\lib\net462\System.Drawing.Common.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.IO.Compression.FileSystem.dll
+C:\Users\Administrator\.nuget\packages\system.memory\4.5.5\lib\net461\System.Memory.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Numerics.dll
+C:\Users\Administrator\.nuget\packages\system.numerics.vectors\4.5.0\ref\net46\System.Numerics.Vectors.dll
+C:\Users\Administrator\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Runtime.Serialization.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.Runtime.Serialization.Primitives.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Security.dll
+C:\Users\Administrator\.nuget\packages\system.text.encodings.web\8.0.0\lib\net462\System.Text.Encodings.Web.dll
+C:\Users\Administrator\.nuget\packages\system.text.json\8.0.5\lib\net462\System.Text.Json.dll
+C:\Users\Administrator\.nuget\packages\system.threading.tasks.extensions\4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\.nuget\packages\system.valuetuple\4.5.0\ref\net47\System.ValueTuple.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xaml.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+C:\Users\Administrator\.nuget\packages\toastnotifications.unofficial\2.5.1\lib\net45\ToastNotifications.dll
+C:\Users\Administrator\.nuget\packages\toastnotifications.messages.unofficial\2.5.1\lib\net45\ToastNotifications.Messages.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\netstandard.dll

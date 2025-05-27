@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "DeepVision.Services/1.0.0": {
+        "dependencies": {
+          "DeepVision.Services.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "DeepVision.Services.dll": {}
+        }
+      },
+      "DeepVision.Services.Interfaces/1.0.0": {
+        "runtime": {
+          "DeepVision.Services.Interfaces.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeepVision.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeepVision.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

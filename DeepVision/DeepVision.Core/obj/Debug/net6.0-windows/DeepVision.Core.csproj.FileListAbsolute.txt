@@ -1,0 +1,13 @@
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\bin\Debug\net6.0-windows\DeepVision.Core.deps.json
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\bin\Debug\net6.0-windows\DeepVision.Core.dll
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\bin\Debug\net6.0-windows\DeepVision.Core.pdb
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.csproj.AssemblyReference.cache
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.AssemblyInfoInputs.cache
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.AssemblyInfo.cs
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.csproj.CoreCompileInputs.cache
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.sourcelink.json
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.dll
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\refint\DeepVision.Core.dll
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\DeepVision.Core.pdb
+E:\work\BSS\product\gitee\DeepVision\DeepVision\DeepVision.Core\obj\Debug\net6.0-windows\ref\DeepVision.Core.dll

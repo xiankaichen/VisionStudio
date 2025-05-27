@@ -1,0 +1,329 @@
+﻿<mah:MetroWindow x:Class="LabelSharp.Views.HomeContext.IndexView"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:cm="http://caliburnmicro.com"
+                 xmlns:busyIndicator="https://github.com/Peoky/BusyIndicator"
+                 xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                 xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                 xmlns:sd="https://github.com/lishilei0523/SD.Framework"
+                 mc:Ignorable="d"
+                 Title="{Binding DisplayName}" 
+                 Icon="/favicon.ico"
+                 Width="1440" Height="900" FontSize="14"
+                 WindowStartupLocation="CenterScreen"
+                 Style="{StaticResource MetroWindow.Styles.Clean}"
+                 cm:Message.Attach="[Event KeyDown] = [Action OnKeyDown()]">
+
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <mah:WindowCommands Margin="0,0,-35,0">
+                <mah:ToggleSwitch Height="34" OnContent="参考线开" OffContent="参考线关" IsOn="{Binding ShowGuideLines}" />
+            </mah:WindowCommands>
+            <Button Content="重置" cm:Message.Attach="Reset()" />
+            <Button Content="样式" cm:Message.Attach="SetStyle()" />
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!--Menu & ToolBar-->
+            <RowDefinition Height="Auto" />
+            <!--Body-->
+            <RowDefinition Height="*" />
+            <!--Footer-->
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <!--Menu & ToolBar-->
+        <Border Grid.Row="0" Style="{StaticResource Panel.Styles.Function.Border}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <!--Menu-->
+                <Menu Grid.Column="0" Margin="4,2,197,2">
+                    <MenuItem Header="文件(_F)">
+                        <MenuItem Header="打开文件(_F)" cm:Message.Attach="OpenImage()" />
+                        <MenuItem Header="打开文件夹(_A)" cm:Message.Attach="OpenImageFolder()" />
+                        <MenuItem Header="关闭全部(_C)" cm:Message.Attach="CloseAll()" />
+                        <MenuItem Header="保存(_S)" cm:Message.Attach="SaveAnnotations()" />
+                        <MenuItem Header="另存为(_L)" cm:Message.Attach="SaveAsAnnotations()" />
+                    </MenuItem>
+                    <MenuItem Header="编辑(_E)">
+                        <MenuItem Header="切割图像(_C)" cm:Message.Attach="CutImage()" />
+                        <MenuItem Header="应用掩膜(_A)" cm:Message.Attach="ApplyMask()" />
+                        <MenuItem Header="保存掩膜(_M)" cm:Message.Attach="SaveMask()" />
+                        <MenuItem Header="导入标签(_L)" cm:Message.Attach="ImportLabels()" />
+                        <MenuItem Header="导入PascalVOC(_P)" cm:Message.Attach="ImportPascal()" />
+                        <MenuItem Header="导入YOLO-det(_D)" cm:Message.Attach="ImportYoloDet()" />
+                        <MenuItem Header="导入YOLO-seg(_S)" cm:Message.Attach="ImportYoloSeg()" />
+                        <MenuItem Header="导入YOLO-obb(_O)" cm:Message.Attach="ImportYoloObb()" />
+                        <MenuItem Header="导出标签(_R)" cm:Message.Attach="ExportLabels()" />
+                        <MenuItem Header="导出PascalVOC(_V)" cm:Message.Attach="ExportPascal()" />
+                        <MenuItem Header="导出YOLO-det(_T)" cm:Message.Attach="ExportYoloDet()" />
+                        <MenuItem Header="导出YOLO-seg(_G)" cm:Message.Attach="ExportYoloSeg()" />
+                        <MenuItem Header="导出YOLO-obb(_B)" cm:Message.Attach="ExportYoloObb()" />
+                    </MenuItem>
+                    <MenuItem Header="格式(_O)">
+                        <MenuItem Header="附带PascalVOC(_P)" IsCheckable="True" IsChecked="{Binding WithPascal}" />
+                        <MenuItem Header="附带YOLO-det(_D)" IsCheckable="True" IsChecked="{Binding WithYoloDet}" />
+                        <MenuItem Header="附带YOLO-seg(_S)" IsCheckable="True" IsChecked="{Binding WithYoloSeg}" />
+                        <MenuItem Header="附带YOLO-obb(_O)" IsCheckable="True" IsChecked="{Binding WithYoloObb}" />
+                    </MenuItem>
+                    <MenuItem Header="工具(_T)">
+                        <MenuItem Header="YOLO目标检测(_D)" cm:Message.Attach="YoloDetect()" />
+                        <MenuItem Header="YOLO图像分割(_S)" cm:Message.Attach="YoloSegment()" />
+                        <MenuItem Header="YOLO定向目标检测(_O)" cm:Message.Attach="YoloObbDetect()" />
+                        <MenuItem Header="PascalVOC → CSV(_C)" cm:Message.Attach="PascalToCsv()" />
+                        <MenuItem Header="PascalVOC → YOLO(_Y)" cm:Message.Attach="PascalToYolo()" />
+                    </MenuItem>
+                    <MenuItem Header="帮助(_H)">
+                        <MenuItem Header="操作手册(_M)" cm:Message.Attach="Manual()" />
+                        <MenuItem Header="技术支持(_T)" cm:Message.Attach="Support()" />
+                    </MenuItem>
+                </Menu>
+                <!--ToolBar-->
+                <WrapPanel Grid.Column="1" Margin="0,0,4,0" VerticalAlignment="Center">
+                    <ToggleButton ToolTip="缩放" x:Name="ScaleChecked" IsChecked="True"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="ZoomInSharp" />
+                    </ToggleButton>
+                    <ToggleButton ToolTip="拖拽" x:Name="DragChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="NavigationSharp">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <RotateTransform Angle="-45" CenterX="5" CenterY="9" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="编辑" x:Name="ResizeChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="UnfoldMoreSharp">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <RotateTransform Angle="-45" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="点" x:Name="PointChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="BubbleChartSharp" />
+                    </ToggleButton>
+                    <ToggleButton ToolTip="线段" x:Name="LineChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="MaximizeSharp">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <RotateTransform Angle="-45" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="画刷" x:Name="BrushChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="Brush" />
+                    </ToggleButton>
+                    <ToggleButton ToolTip="矩形" x:Name="RectangleChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="Crop75Sharp">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <ScaleTransform ScaleX="1.1" ScaleY="1.1" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="旋转矩形" x:Name="RotatedRectangleChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="ScreenRotationSharp">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <ScaleTransform ScaleX="1.2" ScaleY="1.2" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="圆形" x:Name="CircleChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="CircleOutline">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <ScaleTransform ScaleX="1.1" ScaleY="1.1" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="椭圆形" x:Name="EllipseChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="CircleOutline">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <ScaleTransform ScaleX="1.3" CenterX="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="多边形" x:Name="PolygonChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="HexagonOutline">
+                            <iconPacks:PackIconMaterialDesign.RenderTransform>
+                                <ScaleTransform ScaleX="1.2" ScaleY="1.2" CenterX="8" CenterY="8" />
+                            </iconPacks:PackIconMaterialDesign.RenderTransform>
+                        </iconPacks:PackIconMaterialDesign>
+                    </ToggleButton>
+                    <ToggleButton ToolTip="折线段" x:Name="PolylineChecked"
+                                  Style="{StaticResource ToggleButton.Styles.ToolBar}">
+                        <iconPacks:PackIconMaterialDesign Kind="TimelineSharp" />
+                    </ToggleButton>
+                </WrapPanel>
+            </Grid>
+        </Border>
+        <!--Body-->
+        <busyIndicator:BusyMask Grid.Row="1" IndicatorType="Cupertino" IsBusy="{Binding IsBusy}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="314" />
+                </Grid.ColumnDefinitions>
+                <!--图像预览-->
+                <mah:FlipView Grid.Column="0" Margin="4,4,2,4"
+                              IsBannerEnabled="False"
+                              CircularNavigation="False"
+                              MouseHoverBorderEnabled="False" 
+                              LeftTransition="Normal"
+                              RightTransition="Normal"
+                              ItemsSource="{Binding ImageAnnotations}"
+                              SelectedItem="{Binding SelectedImageAnnotation}"
+                              Background="{Binding BackgroundBrush}"
+                              cm:Message.Attach="[Event SelectionChanged] = [Action OnImageSelect()]">
+                    <mah:FlipView.ItemTemplate>
+                        <DataTemplate>
+                            <sd:DrawableCanvasEx BorderBrush="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext.BorderBrush}"
+                                                 BorderThickness="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext.BorderThickness}"
+                                                 GuideLinesVisibility="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext.GuideLinesVisibility}"
+                                                 ScaleChecked="{Binding ElementName=ScaleChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 DragChecked="{Binding ElementName=DragChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 ResizeChecked="{Binding ElementName=ResizeChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 PointChecked="{Binding ElementName=PointChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 LineChecked="{Binding ElementName=LineChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 BrushChecked="{Binding ElementName=BrushChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 RectangleChecked="{Binding ElementName=RectangleChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 RotatedRectangleChecked="{Binding ElementName=RotatedRectangleChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 CircleChecked="{Binding ElementName=CircleChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 EllipseChecked="{Binding ElementName=EllipseChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 PolygonChecked="{Binding ElementName=PolygonChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 PolylineChecked="{Binding ElementName=PolylineChecked, Path=IsChecked, Mode=TwoWay}"
+                                                 ItemsSource="{Binding Shapes}"
+                                                 DatasSource="{Binding ShapeLs}"
+                                                 cm:Message.Attach="                                                 
+                                         [Event ElementDrag] = [Action OnDragElement($source)];
+                                         [Event ElementResize] = [Action OnResizeElement($source)];
+                                         [Event ShapeClick] = [Action OnShapeMouseLeftDown($source,$eventArgs)];
+                                         [Event ShapeDrawn] = [Action OnShapeDrawn($eventArgs)];
+                                         [Event MouseMove] = [Action OnCanvasMouseMove($source)];
+                                         [Event MouseLeftButtonUp] = [Action OnCanvasMouseLeftUp($source)];">
+                                <sd:CanvasEx.BackgroundImage>
+                                    <Image Source="{Binding Image.Value}" />
+                                </sd:CanvasEx.BackgroundImage>
+                            </sd:DrawableCanvasEx>
+                        </DataTemplate>
+                    </mah:FlipView.ItemTemplate>
+                </mah:FlipView>
+                <!--详细信息-->
+                <TabControl Grid.Column="1" Margin="2,4,4,4"
+                            Style="{StaticResource TabControl.Styles.Document}"
+                            ItemContainerStyle="{StaticResource TabControlItem.Styles.Document}">
+                    <TabItem Header="标注信息">
+                        <ListBox ItemsSource="{Binding SelectedImageAnnotation.Annotations}" SelectedItem="{Binding SelectedImageAnnotation.SelectedAnnotation}"
+                                 cm:Message.Attach="[Event SelectionChanged] = [Action OnAnnotationSelect()]">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="5,10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="18" />
+                                            <ColumnDefinition Width="80"/>
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox Grid.Column="0" IsChecked="True"
+                                                  Style="{StaticResource MahApps.Styles.CheckBox}"
+                                                  cm:Message.Attach="
+                                                  [Event Checked] = [Action OnAnnotationCheck($dataContext)];
+                                                  [Event Unchecked] = [Action OnAnnotationUncheck($dataContext)]" />
+                                        <TextBlock Grid.Column="1" Text="{Binding Label}" Margin="20,0,0,0" />
+                                        <TextBlock Grid.Column="2" Text="{Binding ShapeText}" Margin="20,0,0,0" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            <ListBox.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="查看(_L)" cm:Message.Attach="LookAnnotation()" />
+                                    <MenuItem Header="编辑(_E)" cm:Message.Attach="UpdateAnnotation()" />
+                                    <MenuItem Header="删除(_D)" cm:Message.Attach="RemoveAnnotation()" />
+                                    <MenuItem Header="GrabCut分割(_G)" cm:Message.Attach="GrabCutSegment()" />
+                                </ContextMenu>
+                            </ListBox.ContextMenu>
+                        </ListBox>
+                    </TabItem>
+                    <TabItem Header="标签信息">
+                        <ListBox ItemsSource="{Binding Labels}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Margin="5,10" Text="{Binding}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            <ListBox.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="新建(_N)" cm:Message.Attach="CreateLabel()" />
+                                </ContextMenu>
+                            </ListBox.ContextMenu>
+                        </ListBox>
+                    </TabItem>
+                    <TabItem Header="图像列表">
+                        <ListBox ItemsSource="{Binding ImageAnnotations}" SelectedItem="{Binding SelectedImageAnnotation}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Image Width="180" Height="150" Margin="2,4" Stretch="Uniform" Source="{Binding ImagePath}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+                    <TabItem Header="文件列表">
+                        <ListBox ItemsSource="{Binding ImageAnnotations}" SelectedItem="{Binding SelectedImageAnnotation}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Margin="5,10" Text="{Binding ImageName}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem>
+                </TabControl>
+                <GridSplitter Grid.Column="0" Style="{StaticResource GridSplitter.Vertical}" />
+            </Grid>
+        </busyIndicator:BusyMask>
+        <!--Footer-->
+        <Border Grid.Row="2" Style="{StaticResource Panel.Styles.Function.Border}" BorderThickness="0,1,0,0">
+            <Grid>
+                <WrapPanel Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <TextBlock Text="当前图像：" FontSize="12" />
+                    <TextBlock Text="{Binding SelectedImageAnnotation.ImageName}" FontSize="12" />
+                    <TextBlock Text=" | " FontSize="12" />
+                    <TextBlock Text="第" FontSize="12" />
+                    <TextBlock Text="{Binding SelectedImageAnnotation.ImageIndex}" FontSize="12" />
+                    <TextBlock Text="张" FontSize="12" />
+                    <TextBlock Text=" | " FontSize="12" />
+                    <TextBlock Text="共" FontSize="12" />
+                    <TextBlock Text="{Binding ImageAnnotations.Count}" FontSize="12" />
+                    <TextBlock Text="张" FontSize="12" />
+                </WrapPanel>
+                <WrapPanel Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <TextBlock Text="Mouse position: " FontSize="12" />
+                    <TextBlock Text="(" FontSize="12" />
+                    <TextBlock Text="{Binding MousePositionX}" FontSize="12" />
+                    <TextBlock Text=", " FontSize="12" />
+                    <TextBlock Text="{Binding MousePositionY}" FontSize="12" />
+                    <TextBlock Text=")" FontSize="12" />
+                    <TextBlock Text=" | " FontSize="12" />
+                    <TextBlock Text="Pixel format: " FontSize="12" />
+                    <TextBlock Text="{Binding SelectedImageAnnotation.Image.Value.Format}" FontSize="12" />
+                    <TextBlock Text=" | " FontSize="12" />
+                    <TextBlock Text="Width: " FontSize="12" />
+                    <TextBlock Text="{Binding SelectedImageAnnotation.ImageWidth}" FontSize="12" />
+                    <TextBlock Text=" | " FontSize="12" />
+                    <TextBlock Text="Height: " FontSize="12" />
+                    <TextBlock Text="{Binding SelectedImageAnnotation.ImageHeight}" FontSize="12" />
+                </WrapPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</mah:MetroWindow>

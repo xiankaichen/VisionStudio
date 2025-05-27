@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{750A19AF-2248-411C-8A48-A03A299BCE69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Modules.ModuleName.Tests", "DeepVision\Tests\DeepVision.Modules.ModuleName.Tests\DeepVision.Modules.ModuleName.Tests.csproj", "{324C8A8D-0554-4480-B78C-32D156AE79FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{49A38D10-0B76-4930-BFE1-FBA4AB70E1C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Modules.ModuleName", "DeepVision\Modules\DeepVision.Modules.ModuleName\DeepVision.Modules.ModuleName.csproj", "{2EFB5018-2750-4FA6-886C-DC4F12E03912}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B13E1F25-9351-49BB-A26A-61E4BA159757}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Services", "DeepVision\Services\DeepVision.Services\DeepVision.Services.csproj", "{C0D5080D-37E1-45B1-BEDA-18B578737E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Services.Interfaces", "DeepVision\Services\DeepVision.Services.Interfaces\DeepVision.Services.Interfaces.csproj", "{F1664DB2-A05B-4255-9076-38BDE7BEB0E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision", "DeepVision\DeepVision\DeepVision.csproj", "{021639F9-E7B4-4869-A14F-90242AF33962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Core", "DeepVision\DeepVision.Core\DeepVision.Core.csproj", "{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Modules.AnotationCore", "DeepVision\Modules\DeepVision.Modules.AnotationCore\DeepVision.Modules.AnotationCore.csproj", "{971EE195-5B89-4350-8A4B-01C8A9F5DCF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepVision.Modules.AnotationView", "DeepVision\Modules\DeepVision.Modules.AnotationView\DeepVision.Modules.AnotationView.csproj", "{79D724EF-3559-4943-8BD2-F1127B06909B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324C8A8D-0554-4480-B78C-32D156AE79FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324C8A8D-0554-4480-B78C-32D156AE79FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324C8A8D-0554-4480-B78C-32D156AE79FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324C8A8D-0554-4480-B78C-32D156AE79FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFB5018-2750-4FA6-886C-DC4F12E03912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFB5018-2750-4FA6-886C-DC4F12E03912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFB5018-2750-4FA6-886C-DC4F12E03912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFB5018-2750-4FA6-886C-DC4F12E03912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D5080D-37E1-45B1-BEDA-18B578737E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D5080D-37E1-45B1-BEDA-18B578737E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D5080D-37E1-45B1-BEDA-18B578737E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D5080D-37E1-45B1-BEDA-18B578737E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1664DB2-A05B-4255-9076-38BDE7BEB0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1664DB2-A05B-4255-9076-38BDE7BEB0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1664DB2-A05B-4255-9076-38BDE7BEB0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1664DB2-A05B-4255-9076-38BDE7BEB0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021639F9-E7B4-4869-A14F-90242AF33962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021639F9-E7B4-4869-A14F-90242AF33962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021639F9-E7B4-4869-A14F-90242AF33962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021639F9-E7B4-4869-A14F-90242AF33962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971EE195-5B89-4350-8A4B-01C8A9F5DCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971EE195-5B89-4350-8A4B-01C8A9F5DCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971EE195-5B89-4350-8A4B-01C8A9F5DCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971EE195-5B89-4350-8A4B-01C8A9F5DCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D724EF-3559-4943-8BD2-F1127B06909B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D724EF-3559-4943-8BD2-F1127B06909B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D724EF-3559-4943-8BD2-F1127B06909B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D724EF-3559-4943-8BD2-F1127B06909B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{324C8A8D-0554-4480-B78C-32D156AE79FB} = {750A19AF-2248-411C-8A48-A03A299BCE69}
+		{2EFB5018-2750-4FA6-886C-DC4F12E03912} = {49A38D10-0B76-4930-BFE1-FBA4AB70E1C9}
+		{C0D5080D-37E1-45B1-BEDA-18B578737E38} = {B13E1F25-9351-49BB-A26A-61E4BA159757}
+		{F1664DB2-A05B-4255-9076-38BDE7BEB0E4} = {B13E1F25-9351-49BB-A26A-61E4BA159757}
+		{971EE195-5B89-4350-8A4B-01C8A9F5DCF7} = {49A38D10-0B76-4930-BFE1-FBA4AB70E1C9}
+		{79D724EF-3559-4943-8BD2-F1127B06909B} = {49A38D10-0B76-4930-BFE1-FBA4AB70E1C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E073D1DA-F072-46EF-AE18-D3AF07AFE5D9}
+	EndGlobalSection
+EndGlobal

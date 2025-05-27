@@ -1,0 +1,10 @@
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\bin\Debug\netstandard2.1\DeepVision.Services.Interfaces.deps.json
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\bin\Debug\netstandard2.1\DeepVision.Services.Interfaces.dll
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\bin\Debug\netstandard2.1\DeepVision.Services.Interfaces.pdb
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.AssemblyInfoInputs.cache
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.AssemblyInfo.cs
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.csproj.CoreCompileInputs.cache
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.sourcelink.json
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.dll
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Services\DeepVision.Services.Interfaces\obj\Debug\netstandard2.1\DeepVision.Services.Interfaces.pdb

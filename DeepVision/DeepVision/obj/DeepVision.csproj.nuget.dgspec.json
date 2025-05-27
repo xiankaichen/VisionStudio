@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\DeepVision.csproj": {}
+  },
+  "projects": {
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj",
+        "projectName": "DeepVision.Core",
+        "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\DeepVision.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\DeepVision.csproj",
+        "projectName": "DeepVision",
+        "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\DeepVision.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj"
+              },
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj"
+              },
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj"
+              },
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\DeepVision.Services.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\DeepVision.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MaterialDesignThemes.MahApps": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Prism.DryIoc": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj",
+        "projectName": "DeepVision.Modules.ModuleName",
+        "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\DeepVision.Core.csproj"
+              },
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj",
+        "projectName": "DeepVision.Services.Interfaces",
+        "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\DeepVision.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\DeepVision.Services.csproj",
+        "projectName": "DeepVision.Services",
+        "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\DeepVision.Services.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj": {
+                "projectPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Services\\DeepVision.Services.Interfaces\\DeepVision.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

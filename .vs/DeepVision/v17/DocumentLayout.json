@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\BSS\\product\\gitee\\DeepVision\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.modulename\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.modulename\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.modulename\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.modulename\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\c9f17da94e98abe99198c95dc15cd738f675bda304e372ae2be858390cb21228\\Page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\aa7fbf16042d8914514e0f836928a6a4094aed3caab1d0f9bf51cb4956020b35\\App.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0f59a3a8a84ed4c4048df320c72c74de1bf7a047d1ed59a561dac3a34d762be6\\RegionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\6bd2df69676f88a3948c4c9e8ba848f3c0fb0384fc78ac1140caaac9dc12e401\\Application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{021639F9-E7B4-4869-A14F-90242AF33962}|DeepVision\\DeepVision\\DeepVision.csproj|solutionrelative:deepvision\\deepvision\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}|DeepVision\\DeepVision.Core\\DeepVision.Core.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\deepvision.core\\regionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E520A8B8-5E03-499D-AAE1-7A32B7DBB334}|DeepVision\\DeepVision.Core\\DeepVision.Core.csproj|solutionrelative:deepvision\\deepvision.core\\regionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\cd33d8d07e85254742c9a7f98a9d16c3b0ab67c4383a620e1f2bffef1a554d05\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\2676c69414d247f66988ba7cfafd4c7ae33b2c91af710793f92b4dfe534e72a8\\Visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.modulename\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFB5018-2750-4FA6-886C-DC4F12E03912}|DeepVision\\Modules\\DeepVision.Modules.ModuleName\\DeepVision.Modules.ModuleName.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.modulename\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\views\\homecontext\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\views\\homecontext\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\homecontext\\indexviewmodel.actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\homecontext\\indexviewmodel.actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\homecontext\\indexviewmodel.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\homecontext\\indexviewmodel.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\addviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\addviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\lookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\lookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\updateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\annotationcontext\\updateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\labelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\labelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\thresholdviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\thresholdviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\styleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\viewmodels\\commoncontext\\styleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|e:\\work\\bss\\product\\gitee\\deepvision\\deepvision\\modules\\deepvision.modules.anotationview\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{79D724EF-3559-4943-8BD2-F1127B06909B}|DeepVision\\Modules\\DeepVision.Modules.AnotationView\\DeepVision.Modules.AnotationView.csproj|solutionrelative:deepvision\\modules\\deepvision.modules.anotationview\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\Home.xaml",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\Views\\Home.xaml",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\Home.xaml",
+              "RelativeToolTip": "DeepVision\\DeepVision\\Views\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T06:15:01.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:13:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\c9f17da94e98abe99198c95dc15cd738f675bda304e372ae2be858390cb21228\\Page.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\c9f17da94e98abe99198c95dc15cd738f675bda304e372ae2be858390cb21228\\Page.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAANQBAAAAAAAAAIAxwOEBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:33:25.072Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\Views\\Home.xaml.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\Home.xaml.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision\\Views\\Home.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:20:02.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T06:07:50.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\6bd2df69676f88a3948c4c9e8ba848f3c0fb0384fc78ac1140caaac9dc12e401\\Application.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\6bd2df69676f88a3948c4c9e8ba848f3c0fb0384fc78ac1140caaac9dc12e401\\Application.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAACACAAAAAAAAAAAAwCoCAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:21:55.846Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\App.xaml.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\App.xaml.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision\\App.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:59:45.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewA.xaml.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\Views\\ViewA.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:01:05.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:07:15.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\Views\\MainWindow.xaml",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "DeepVision\\DeepVision\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T04:44:58.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0f59a3a8a84ed4c4048df320c72c74de1bf7a047d1ed59a561dac3a34d762be6\\RegionManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\0f59a3a8a84ed4c4048df320c72c74de1bf7a047d1ed59a561dac3a34d762be6\\RegionManager.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAwP4AAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:48:38.606Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\aa7fbf16042d8914514e0f836928a6a4094aed3caab1d0f9bf51cb4956020b35\\App.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\aa7fbf16042d8914514e0f836928a6a4094aed3caab1d0f9bf51cb4956020b35\\App.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwDoAAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:21:57.641Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:42:10.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\App.xaml",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision\\App.xaml",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision\\App.xaml",
+              "RelativeToolTip": "DeepVision\\DeepVision\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T04:52:03.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegionNames.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\RegionNames.cs",
+              "RelativeDocumentMoniker": "DeepVision\\DeepVision.Core\\RegionNames.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\DeepVision.Core\\RegionNames.cs",
+              "RelativeToolTip": "DeepVision\\DeepVision.Core\\RegionNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:33:49.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrameworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\cd33d8d07e85254742c9a7f98a9d16c3b0ab67c4383a620e1f2bffef1a554d05\\FrameworkTemplate.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\cd33d8d07e85254742c9a7f98a9d16c3b0ab67c4383a620e1f2bffef1a554d05\\FrameworkTemplate.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAALMBAAAAAAAAAIAxwMcBAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:34:52.874Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Visual.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\2676c69414d247f66988ba7cfafd4c7ae33b2c91af710793f92b4dfe534e72a8\\Visual.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\2676c69414d247f66988ba7cfafd4c7ae33b2c91af710793f92b4dfe534e72a8\\Visual.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAEYHAAAAAAAAAIAxwFMHAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:34:50.547Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewAViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:07:53.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IndexView.xaml",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\Views\\HomeContext\\IndexView.xaml",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\Views\\HomeContext\\IndexView.xaml",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\Views\\HomeContext\\IndexView.xaml",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\Views\\HomeContext\\IndexView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-27T03:19:03.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IndexViewModel.Menu.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Menu.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Menu.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Menu.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAALgBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:08:47.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IndexViewModel.Actions.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Actions.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Actions.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Actions.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\HomeContext\\IndexViewModel.Actions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:18:06.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LookViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\LookViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\LookViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\LookViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\LookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:17:22.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThresholdViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\ThresholdViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\ThresholdViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\ThresholdViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\ThresholdViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:17:16.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StyleViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\StyleViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\StyleViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\StyleViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\StyleViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:17:00.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\UpdateViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\UpdateViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\UpdateViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\UpdateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:16:56.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\AddViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\AddViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\AddViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\AnnotationContext\\AddViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:16:43.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LabelViewModel.cs",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\LabelViewModel.cs",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\LabelViewModel.cs",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\LabelViewModel.cs",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\ViewModels\\CommonContext\\LabelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:12:04.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\App.config",
+              "RelativeDocumentMoniker": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\App.config",
+              "ToolTip": "E:\\work\\BSS\\product\\gitee\\DeepVision\\DeepVision\\Modules\\DeepVision.Modules.AnotationView\\App.config",
+              "RelativeToolTip": "DeepVision\\Modules\\DeepVision.Modules.AnotationView\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-27T03:07:42.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

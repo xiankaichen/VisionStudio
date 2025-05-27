@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Resources\Image\**" />
+    <EmbeddedResource Remove="Resources\Image\**" />
+    <None Remove="Resources\Image\**" />
+    <Page Remove="Resources\Image\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\Images\DefectDetection.png" />
+    <None Remove="Views\DefectDetection.png" />
+    <None Remove="Views\ImageClassification.png" />
+    <None Remove="Views\InstanceSegmentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.2.1" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeepVision.Core\DeepVision.Core.csproj" />
+    <ProjectReference Include="..\Modules\DeepVision.Modules.ModuleName\DeepVision.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\DeepVision.Services.Interfaces\DeepVision.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\DeepVision.Services\DeepVision.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\DefectDetection.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\DefectDetection.png" />
+    <Resource Include="Views\ImageClassification.png" />
+    <Resource Include="Views\InstanceSegmentation.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Modules\DeepVision.Modules.AnotationClient\obj\Debug\net48\LabelSharp.exe
+E:\work\BSS\product\gitee\DeepVision\DeepVision\Modules\DeepVision.Modules.AnotationClient\obj\Debug\net48\LabelSharp.pdb

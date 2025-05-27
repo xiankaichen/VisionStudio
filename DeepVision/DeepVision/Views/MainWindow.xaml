@@ -1,0 +1,143 @@
+﻿<Window x:Class="DeepVision.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:core="clr-namespace:DeepVision.Core;assembly=DeepVision.Core"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:local="clr-namespace:DeepVision.Views"
+        Title="DeepVision"
+        Height="800" Width="1280"
+        Background="{DynamicResource MaterialDesignPaper}"
+        WindowStartupLocation="CenterScreen">
+
+    <DockPanel>
+
+        <!-- 顶部菜单栏 -->
+        <Menu DockPanel.Dock="Top" Background="{DynamicResource MaterialDesignPaper}" Foreground="White" FontSize="14">
+            <!-- 文件 -->
+            <MenuItem Header="_文件">
+                <MenuItem Header="新建工程" ToolTip="新建空白工程">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="FilePlus" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="打开工程" ToolTip="选择并打开已有的工程文件夹">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="FolderOpen" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="保存工程" ToolTip="保存对当前工程的改动">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ContentSave" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="另存为" ToolTip="将工程内容保存到指定位置">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ContentSaveMove" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- 编辑 -->
+            <MenuItem Header="_编辑">
+                <MenuItem Header="撤销" ToolTip="撤销标注操作">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Undo" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="恢复" ToolTip="恢复上一步撤销的操作">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Redo" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- 工具 -->
+            <MenuItem Header="_工具">
+                <MenuItem Header="运行模式" ToolTip="批量测试数据（支持缺陷分割/图像分类）">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="PlayCircle" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="训练中心" ToolTip="管理训练任务与训练历史">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Brain" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- 设置 -->
+            <MenuItem Header="_设置">
+                <MenuItem Header="设置" ToolTip="切换软件语言、开发者模式、智能标注模型等">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Cog" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- 帮助 -->
+            <MenuItem Header="_帮助">
+                <MenuItem Header="用户手册" ToolTip="打开用户手册">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="BookOpenPageVariant" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="快速指引" ToolTip="启动软件的快速指引">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Flash" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="更新说明" ToolTip="打开更新说明">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Update" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="查看日志" ToolTip="打开包含软件运行日志的文件夹">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="FileDocumentOutline" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="检查设备" ToolTip="检查并查看当前设备的CPU与GPU型号">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Monitor" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="关于" ToolTip="查看当前软件版本信息">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="InformationOutline" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="联系我们" ToolTip="获取销售及售后联系方式">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Email" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <!-- 第二行：首页按钮和子页面标签 -->
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10,4,0,4">
+            <Button Command="{Binding NavigateToHomeCommand}"
+                    Style="{StaticResource MaterialDesignFlatButton}" ToolTip="返回主页" Margin="0,0,10,0">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Home" Width="20" Height="20" />
+                    <TextBlock Text="主页" Foreground="White" Margin="5,0,0,0" />
+                </StackPanel>
+            </Button>
+
+            <!-- 动态子页面按钮列表 -->
+            <ItemsControl ItemsSource="{Binding OpenedPages}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Content="{Binding Title}"
+                                Command="{Binding DataContext.NavigateToPageCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                CommandParameter="{Binding PageKey}"
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                Margin="0,0,10,0" Foreground="White"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+
+        <!-- 主视图区域 -->
+        
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.MainRegion}" />
+        <!--<ContentControl prism:RegionManager.RegionName="MainRegion" Margin="20"/>-->
+    </DockPanel>
+</Window>
